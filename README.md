@@ -51,7 +51,9 @@ Watch a video demo of my portfolio:
 - HTML
 - CSS
 - JavaScript
-- [Your Framework/Libraries]
+- Bootstrap
+- Slick
+- AOS
 
 ## Installation
 
