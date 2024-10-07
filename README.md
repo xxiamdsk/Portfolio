@@ -1,6 +1,6 @@
 # My Portfolio
 
-Welcome to my portfolio repository! This project showcases my personal and professional achievements, skills, and projects. You can view the live portfolio [here](https://xxiamdsk.github.io/Portfolio.github.io/index.html).
+Welcome to my portfolio repository! This project showcases my personal and professional achievements, skills, and projects. You can view the live portfolio [here](https://xxiamdsk.github.io/Portfolio).
 
 ## Table of Contents
 
@@ -61,7 +61,7 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/xxiamdsk/Portfolio.github.io.git
+    git clone https://github.com/xxiamdsk/Portfolio.git
     ```
 2. Navigate to the project directory:
     ```sh
@@ -87,4 +87,4 @@ Contributions are what make the open-source community such an amazing place to l
 Feel free to get in touch with me for any questions or collaborations:
 
 - **Email**: [deepak@singh.in](mailto:deepak@singh.in)
-- **Portfolio**: [https://xxiamdsk.github.io/Portfolio.github.io/index.html](https://xxiamdsk.github.io/Portfolio.github.io/index.html)
+- **Portfolio**: [https://xxiamdsk.github.io/Portfolio.github.io/index.html](https://xxiamdsk.github.io/Portfolio)
