@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stacked Background Images with Filters</title>
+    <style>
+        .stacked-bg {
+            position: relative;
+            width: 500px;
+            height: 300px;
+            /* Background for the main div (optional) */
+            /* background-color: lightgray; */
+        }
+
+        /* First image on ::before pseudo-element */
+        .stacked-bg::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('ppb.jpg');
+            /* First image */
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            z-index: 1;
+            filter: grayscale(100%);
+            /* Apply filter to first image */
+            opacity: 0.1;
+            /* Optional transparency */
+        }
+
+        /* Second image on ::after pseudo-element */
+        .stacked-bg::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('pp.png');
+            /* Second image */
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            z-index: 2;
+            /* filter: blur(2px) brightness(1.2); */
+            /* Apply filter to second image */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="stacked-bg"></div>
+</body>
+
+</html>
